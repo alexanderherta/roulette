@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Teko:wght@300..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courgette", serif;
+}
+
+body {
+  background-image: url("./img/green-background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.start-title {
+  background-image: url("img/wood.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: darkred;
+  font-size: 64px;
+  text-shadow: 2px 2px black;
+  border: 5px solid rgb(65, 48, 2);
+  border-radius: 10px;
+}
+
+.start-button {
+  background-color: white;
+  font-size: 32px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  border-color: gold;
+  color: gold;
+  transition: 0.3s;
+  background-color: grey;
+}
+
